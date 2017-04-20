@@ -43,6 +43,8 @@ using System.Collections;
 
 #if !PocketPC
       public static readonly Font DefaultFont = new Font("Arial", 7, FontStyle.Bold, GraphicsUnit.Pixel);
+	  //Test
+	  
 #else
       public static readonly Font DefaultFont = new Font(FontFamily.GenericSansSerif, 6, FontStyle.Bold);
 #endif
