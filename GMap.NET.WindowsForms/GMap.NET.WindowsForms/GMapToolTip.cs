@@ -42,7 +42,7 @@ using System.Collections;
       public readonly StringFormat Format = DefaultFormat;
 
 #if !PocketPC
-      public static readonly Font DefaultFont = new Font(FontFamily.GenericSansSerif, 14, FontStyle.Bold, GraphicsUnit.Pixel);
+      public static readonly Font DefaultFont = new Font("Arial", 7, FontStyle.Bold, GraphicsUnit.Pixel);
 #else
       public static readonly Font DefaultFont = new Font(FontFamily.GenericSansSerif, 6, FontStyle.Bold);
 #endif
